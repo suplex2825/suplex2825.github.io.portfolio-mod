@@ -1,0 +1,176 @@
+body {
+   margin: 0;
+   padding: 0;
+   background: linear-gradient(#e66465,#9198e5);
+   font-family: 'Muli', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.bg-image {
+	background-color: black;
+	padding: 10px;
+	border-radius: 5px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+
+.list {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	padding: 0;
+	font-size: 2em;
+}
+
+.list li {
+	max-width: 100%;
+	flex-grow: 1;
+	margin: 10px;
+	padding: 5px;
+}
+
+.list a {
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+
+
+.list a:hover {
+	color: red;
+}
+
+.h1-name {
+	color: #ff8787;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 50px;
+}
+
+.name {
+	text-align: center;
+	font-size: 6em;
+	margin-top: 350px;
+	padding: 5px;
+}
+
+.self {
+	text-align: center;
+	font-size: 2.2em;
+	padding: 10px;
+}
+
+.green {
+	border-bottom: 3px solid #556B2F;
+	margin-top: 70px;
+	font-size: 1.6em;
+}
+
+.house {
+	width: 70%;
+}
+
+.center {
+	text-align: center;
+	border: 1px solid black;
+	margin: 20px;
+}
+
+.circle {
+	border: 3px solid black;
+	border-radius: 50%;
+	width: 200px;
+	height: 300px;
+}
+
+.about {
+	text-align: center;
+}
+
+.footer-bg {
+	background-color: #ffffb3;
+}
+
+.menu{
+    text-align: center;
+    padding: 15px;
+    max-width: 100%;
+    flex-grow: 1;
+}
+
+.contact {
+	color: #A52A2A;
+}
+
+.email {
+	color: #A52A2A;
+}
+
+.mobile {
+	color: #A52A2A;
+}
+
+.foot {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.move {
+	margin-top: 10px;
+}
+
+.align {
+    margin-top: 50px;
+}
+
+.change {
+	text-decoration: none;
+	color: white;
+}
+
+.rotate:hover {
+	transform: rotateZ(360deg);
+	transition-duration: 600ms;
+	transition-timing-function: ease-in-out;
+}
+
+.mod {
+	text-decoration: none;
+	color: black;
+}
+
+.shadow:hover {
+	box-shadow: 2px 2px 2px #000;
+}
+
+.phrase {
+	padding: 10px;
+}
+
+@media(min-width: 768px) {
+	.push {
+		display: flex;
+	}
+
+	.h1-name {
+		float: left;
+		width: 45%;
+	}
+
+	.list {
+		float: right;
+		width: 45%;
+	}
+
+	.clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+}
